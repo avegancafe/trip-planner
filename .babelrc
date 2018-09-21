@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "react",
+    "env"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+    "transform-class-properties"
+  ]
+}
